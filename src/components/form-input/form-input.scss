@@ -31,6 +31,9 @@ $main-color: black;
     &:focus ~ .form-input-label {
       @include shrinkLabel();
     }
+    &:invalid{
+      box-shadow: none;
+    }
   }
 
   input[type='password'] {
